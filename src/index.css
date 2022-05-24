@@ -24,7 +24,9 @@ a{text-decoration: none;}
 .header-icons ul{list-style: none; display: flex; gap: 30px; justify-content: center; align-items: center; margin: 0% 30px 0% 0%;}
 .header-icons a{text-decoration: none; color: black;}
 .header-icons i{color: black; }
-.search-box input{border-radius: 100px; width: 320px;}
+.header-icons .fa-heart{color: red;}
+.search-box a{color: black; position: relative; top: 8px; right: 38px;}
+.search-box input{border-radius: 100px; }
 .navbar-light .navbar-nav{margin-left: 50px;}
 .navbar-light .navbar-nav .nav-link {   color: black;}
 
@@ -114,9 +116,12 @@ a{text-decoration: none;}
 #bradcrumb{background-color: rgba(255, 166, 12, 1); padding: 20px 10px 8px 90px;}
 .product-nav{border: none; box-shadow: none;}
 /* #pro-img-sec{display: flex; flex-wrap: wrap; } */
-#pro-img-ul li{width: 48%;}
+.product-sec-main{margin-bottom: 60px;}
+#pro-img-sec .product-img{width: 100%; padding: 0px 20px 30px 30px; }
+#pro-img-sec .product-img img{width: 100%; }
+#pro-img-ul li{width: 11vw;}
 #pro-img-sec .pro-img{width: 100%;}
-#pro-img-ul {display: flex; flex-wrap: wrap; flex-direction: row; list-style: none; gap: 20px;} 
+#pro-img-ul {display: flex; flex-wrap: wrap; flex-direction: row; list-style: none; gap: 20px; margin-top: 10px;} 
 
 
 .rating{list-style: none; display: flex; gap: 10px; padding-left: 0px;}
@@ -125,7 +130,7 @@ a{text-decoration: none;}
 .prdct-price{ font-weight: 400;}
 .prdct-price strike{color: rgba(204, 204, 204, 1);}
 .prdct-size span{font-size: 25px;}
-.prdct-discount{width: fit-content; background-color: var(--primary-color); color: white; padding: 4px 10px; border-radius: 5px;}
+.prdct-discount{width: fit-content; background-color: var(--primary-color); display: inline-block; color: white; padding: 4px 10px; border-radius: 5px;}
 #color-category {list-style: none; display: flex; justify-content: left; gap: 10px; padding-left: 0px;}
 #color-category #orange{background-color: rgba(255, 166, 12, 1); border: 1px solid rgba(255, 166, 12, 1);}
 #color-category #red{background-color: rgba(255, 0, 0, 1); border: 1px solid rgba(255, 0, 0, 1);}
@@ -182,3 +187,22 @@ a{text-decoration: none;}
 
 
 .Marvel-container img{width: 100vw; padding: 0%;}
+.custmize-btn{color: white; background-color: black; text-align: center; margin-top: 14px; border-radius: 5px; padding: 10px 15px; font-size: x-large; width: 92%;}
+.custmize-price{display: inline-block; width: max-content; margin-right: 20px;}
+.custmize-price strike{color: #E5E5E5;}
+
+
+/* Login page  */
+.Login-container .row{margin: 2.8rem 2.5rem 6.6rem 2.5rem;}
+.login-sec{background-color: rgba(250, 250, 250, 1); text-align: center; padding-top: 4rem;}
+.login-sec h2{text-transform: uppercase;}
+.login-sec form{display: flex; flex-direction: column; gap: 20px; width: 70%; margin: 30px auto;}
+.login-sec input{padding: 15px; border: 1px solid rgba(218, 218, 218, 1); border-radius: 5px;}
+.login-sec button{font-size: large; padding: 16px; background-color: var(--primary-color); color: white; border: none; border-radius: 5px;}
+.login-sec .fa-facebook {color: rgba(28, 116, 219, 1);}
+.login-sec .fa-google {color: red; margin-left: 1rem;}
+.login-sec .orlogin{margin: 4rem 0rem 2rem 0rem;}
+
+
+/* Rgister page  */
+.orRegister{margin: 24px 0px 30px 0px;}

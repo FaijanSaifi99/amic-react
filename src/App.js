@@ -1,25 +1,27 @@
 import React from 'react';
-import Category from './components/Category';
-import DCD from './components/Deal&ColorDay';
-import FirstSec from './components/FirstSec';
-import Footer from './components/Footer';
-
-import  Header  from './components/Header';
-import  Hero  from './components/Hero';
-import Marvel from './components/Marvel';
-import SecondSec from './components/SecondSec';
+import { Route, Routes } from "react-router-dom";
+import Listing from './Listing';
+import Home from './Home';
+import Product from './Product';
+import Customize from './Customize';
+import CstmizeDesign from './CstmizeDesign';
+import Login from './Login';
+import Register from './Register';
+import Cart from './Cart';
 
 function App() {
   return (
     <>
-      <Header/>
-      <Hero/>
-      <DCD/>
-      <Marvel/>
-      <FirstSec/>
-      <SecondSec/>
-      <Category/>
-      <Footer/>
+      <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/listing' element={<Listing/>} />
+        <Route path='/product' element={<Product/>} />
+        <Route path='/customize' element={<Customize/>} />
+        <Route path='/customize-design' element={<CstmizeDesign/>} />
+        <Route path='/login' element={<Login/>} />
+        <Route path='/register' element={<Register/>} />
+        <Route path='/cart' element={<Cart/>} />
+      </Routes>
     </>
   );
 }

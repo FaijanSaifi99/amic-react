@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -59,12 +60,13 @@ const Header = () => {
             </ul>
             <form className="d-flex search-box">
               <input className="form-control me-2" type="search" placeholder="Search Here..." aria-label="Search"/>
+              <a href='/'><i class="fa fa-light fa-magnifying-glass"></i></a>
             </form>
             <div className="header-icons">
               <ul>
-                <li><a href="/"><i className="fa fa-light fa-bag-shopping"></i></a></li>
-                <li><a href="/"><i className="fa fa-light fa-heart"></i></a></li>
-                <li><a href="/"><i className="fa fa-thin fa-user"></i></a></li>
+                <li><Link to="/cart"><i className="fa fa-light fa-bag-shopping"></i></Link></li>
+                <li><a href="/"><i className="fa fa-light fa-heart fa-danger"></i></a></li>
+                <li><Link to='/register'><i className="fa fa-thin fa-user"></i></Link></li>
               </ul>
             </div>
           </div>
