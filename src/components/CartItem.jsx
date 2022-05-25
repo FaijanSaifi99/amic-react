@@ -1,18 +1,18 @@
-import React from 'react'
+import React from 'react';
 
-const CartItem = () => {
+const CartItem = (props) => {
   return (
     <>
        <div className="cart-item">
               <button className="remove_item">X</button>
               <div className="d-flex cart-content">
-              <div className="cartimg"><img src="images/card-img.png" alt="" /></div>
+              <div className="cartimg"><img src={props.img} alt="" /></div>
               <div className="item-content">
                 <h5>
-                  Men's Blue One With the Universe Graphic Printed T-shirt
+                {props.title}
                 </h5>
                 <h2 className="prdct-price ">
-                  Rs. 350.00 <strike>Rs. 500.00</strike>
+                  Rs. {props.curprice} <strike>Rs. {props.actualprice}</strike>
                 </h2>
                 <label for="quantity">Qty</label>
                 <select name="quantity" id="quantity">
