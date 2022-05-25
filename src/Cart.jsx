@@ -19,7 +19,7 @@ const Cart = () => {
             <CartItem/>
           </div>
           <div className="col-md-4">
-            <CartPrice/>
+            <CartPrice goto="/checkout" btnName="CHECKOUT"/>
           </div>
         </div>
       </div>

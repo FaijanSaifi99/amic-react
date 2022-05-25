@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const CartPrice = () => {
+const CartPrice = (props) => {
   return (
     <>
         <div className="price_summery">
@@ -16,7 +16,7 @@ const CartPrice = () => {
                 </ul>
               </div>
               <h2 className="total_price ">Total -<span>Rs. 350</span></h2>
-              <Link to='/checkout' className="checkout_btn">CHECKOUT</Link>
+              <button className="checkout_btn"><Link to={props.goto} >{props.btnName}</Link></button>
               </div>
             </div>
     </>
