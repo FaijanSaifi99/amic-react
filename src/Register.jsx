@@ -10,11 +10,11 @@ const Register = () => {
         <Header/>
         <Bradcrumb/>
         <img src='images/LoginHero.png' alt='' style={{width:"100%"}}/>
-        <div className="Login-container container-fluid">
+        <div className="Login-container container">
             <div className="row">
                 <div className="col-md-6"><img src="images/Login-img.png" alt="" /></div>
                 <div className="col-md-6 login-sec" style={{paddingTop:'2rem'}}>
-                    <h2 className='display-5'>REGISTER</h2>
+                    <h4 >REGISTER</h4>
                     <form style={{marginTop:'0px'}}>
                         <input type="text" placeholder='Name'/>
                         <input type="text" placeholder='Email id'/>

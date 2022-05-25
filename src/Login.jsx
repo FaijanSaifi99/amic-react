@@ -13,7 +13,7 @@ const Login = () => {
             <div className="row">
                 <div className="col-md-6"><img src="images/Login-img.png" alt="" /></div>
                 <div className="col-md-6 login-sec">
-                    <h2 className='display-5'>login/register</h2>
+                    <h2 className='display-5' style={{paddingTop:'2rem'}}>login/register</h2>
                     <p>for Latest trends, exciting offers and everything AMIC!</p>
                     <form>
                         <input type="text" placeholder='Enter Email ID / Phone No'/>

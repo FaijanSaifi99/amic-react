@@ -8,6 +8,7 @@ import CstmizeDesign from './CstmizeDesign';
 import Login from './Login';
 import Register from './Register';
 import Cart from './Cart';
+import Checkout from './Checkout';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/login' element={<Login/>} />
         <Route path='/register' element={<Register/>} />
         <Route path='/cart' element={<Cart/>} />
+        <Route path='/checkout' element={<Checkout/>} />
       </Routes>
     </>
   );
