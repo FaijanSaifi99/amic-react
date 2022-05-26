@@ -1,58 +1,59 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const CstmizeDesign = () => {
   return (
     <>
-        <nav class="navbar navbar-expand-lg navbar-light product-nav p-3">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""/></a>
-          <a class="float-right save-btn" href="">Save Design</a>
+        <nav className="navbar navbar-expand-lg navbar-light product-nav p-3">
+        <div className="container-fluid">
+          <Link className="navbar-brand" to="#"><img src="images/logo.png" alt=""/></Link>
+          <Link className="float-right save-btn" to="">Save Design</Link>
         </div>
       </nav>
 
-    <section class="brdcrmb-sec ">
-        <ul class="m-0">
-            <li><a class="back-btn" href="">Back</a></li>
-            <li><a class="frn-bk-btn" id="frnt-btn" href="">Front</a></li>
-            <li><a class="frn-bk-btn" id="back-btn" href="">Back</a></li>
+    <section className="brdcrmb-sec ">
+        <ul className="m-0">
+            <li><Link className="back-btn" to="">Back</Link></li>
+            <li><Link className="frn-bk-btn" id="frnt-btn" to="">Front</Link></li>
+            <li><Link className="frn-bk-btn" id="back-btn" to="">Back</Link></li>
         </ul>
     </section>
 
-    <section class="container-fluid">
-        <div class="row">
-            <div class="col-md-8 pb-4">
-                <div class="cstmz-img-con">
+    <section className="container-fluid">
+        <div className="row">
+            <div className="col-md-8 pb-4">
+                <div className="cstmz-img-con">
                     <img src="images/customize.png" alt=""/>
                 </div>
-                <ul class="d-flex mgnfng">
-                    <li><a href=""><i class="fa fa-thin fa-magnifying-glass"></i></a></li>
-                    <li><a href=""><i class="fa fa-thin fa-magnifying-glass-plus"></i></a></li>
-                    <li><a href=""><i class="fa fa-thin fa-magnifying-glass-minus"></i></a></li>
+                <ul className="d-flex mgnfng">
+                    <li><Link to=""><i className="fa fa-thin fa-magnifying-glass"></i></Link></li>
+                    <li><Link to=""><i className="fa fa-thin fa-magnifying-glass-plus"></i></Link></li>
+                    <li><Link to=""><i className="fa fa-thin fa-magnifying-glass-minus"></i></Link></li>
                 </ul>
             </div>
-            <div class="col-md-4 cstmz-side">
-              <div class="d-flex justify-content-between">
-                <h5 class="">Background Color Pick</h5>
-                <p class="chng-rmv"><a href="">Change</a> | <a href="">Remove</a></p>
+            <div className="col-md-4 cstmz-side">
+              <div className="d-flex justify-content-between">
+                <h5 className="">Background Color Pick</h5>
+                <p className="chng-rmv"><Link to="">Change</Link> | <Link to="">Remove</Link></p>
               </div>
-              <div class="bg-clr-pick" >
-                <a href=""></a>
+              <div className="bg-clr-pick" >
+                <Link to=""></Link>
               </div>
-              <div class="add-elmnt-div"><strong>Add Elements</strong>
-                <ul class="add-elmnt">
-                  <li class="add-elmnt-list"><a href=""><i class="fas fa-2x fa-thin fa-qrcode"></i></a><span>Text</span> </li>
-                  <li class="add-elmnt-list"><a href=""><i class="fas fa-2x fa-thin fa-align-right"></i></a>pargarphp</li>
-                  <li class="add-elmnt-list"><a href=""><i class="fas fa-2x fa-thin fa-qrcode"></i></a><span>Logo</span> </li>
-                  <li class="add-elmnt-list"><a href=""><i class="fas fa-2x fa-thin fa-qrcode"></i></a><span>Shape</span></li>
-                  <li class="add-elmnt-list"><a href=""><i class="fas fa-2x fa-thin fa-images"></i></a><span>Image</span></li>
-                  <li class="add-elmnt-list"><a href=""><i class="fas fa-2x fa-thin fa-qrcode"></i></a><span>QR Code</span></li>
+              <div className="add-elmnt-div"><strong>Add Elements</strong>
+                <ul className="add-elmnt">
+                  <li className="add-elmnt-list"><Link to=""><i className="fas fa-2x fa-thin fa-qrcode"></i></Link><span>Text</span> </li>
+                  <li className="add-elmnt-list"><Link to=""><i className="fas fa-2x fa-thin fa-align-right"></i></Link>pargarphp</li>
+                  <li className="add-elmnt-list"><Link to=""><i className="fas fa-2x fa-thin fa-qrcode"></i></Link><span>Logo</span> </li>
+                  <li className="add-elmnt-list"><Link to=""><i className="fas fa-2x fa-thin fa-qrcode"></i></Link><span>Shape</span></li>
+                  <li className="add-elmnt-list"><Link to=""><i className="fas fa-2x fa-thin fa-images"></i></Link><span>Image</span></li>
+                  <li className="add-elmnt-list"><Link to=""><i className="fas fa-2x fa-thin fa-qrcode"></i></Link><span>QR Code</span></li>
                 </ul>
               </div>
-              <div class="elmnt-design">
+              <div className="elmnt-design">
                 <h6>Elements in the design</h6>
-                <div class="elmnt-design-item">Slogan</div>
-                <div class="elmnt-design-item">Company Name</div>
-                <div class="elmnt-design-item">Image</div>
+                <div className="elmnt-design-item">Slogan</div>
+                <div className="elmnt-design-item">Company Name</div>
+                <div className="elmnt-design-item">Image</div>
               </div>
             </div>
         </div>

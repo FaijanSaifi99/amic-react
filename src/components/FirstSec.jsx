@@ -14,7 +14,7 @@ const FirstSec = () => {
             {
               sData.map(function ncard(val){
                 return(
-                  <Card cardimg={val.cardimg} cardCon={val.cardCon} curprice={val.curprice} realprice={val.realprice}/>
+                  <Card key={val.id} cardimg={val.cardimg} cardCon={val.cardCon} curprice={val.curprice} realprice={val.realprice}/>
                 )
               })
               

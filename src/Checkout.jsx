@@ -16,59 +16,59 @@ const Checkout = () => {
             <div className="name-details">
               <form className="address-detail">
                 <div className="name-detail">
-                  <div class="mb-3 fname">
-                    <label for="exampleInputEmail1" class="form-label">
+                  <div className="mb-3 fname">
+                    <label for="exampleInputEmail1" className="form-label">
                       First Name
                     </label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="exampleInputEmail1"
                       aria-describedby="emailHelp"
                     />
                   </div>
-                  <div class="mb-3 lname">
-                    <label for="exampleInputEmail1" class="form-label">
+                  <div className="mb-3 lname">
+                    <label for="exampleInputEmail1" className="form-label">
                       Last Name
                     </label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="exampleInputEmail1"
                       aria-describedby="emailHelp"
                     />
                   </div>
                 </div>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">
+                <div className="mb-3">
+                  <label for="exampleInputEmail1" className="form-label">
                     Email address
                   </label>
                   <input
                     type="email"
-                    class="form-control"
+                    className="form-control"
                     id="exampleInputEmail1"
                     aria-describedby="emailHelp"
                   />
                 </div>
                 <div className="phone-otp">
-                  <div class="mb-3 phone">
-                    <label for="exampleInputEmail1" class="form-label">
+                  <div className="mb-3 phone">
+                    <label for="exampleInputEmail1" className="form-label">
                       Phone No
                     </label>
                     <input
                       type="phone"
-                      class="form-control"
+                      className="form-control"
                       id="exampleInputEmail1"
                       aria-describedby="emailHelp"
                     />
                   </div>
-                  <div class="mb-3 otp">
-                    <label for="exampleInputEmail1" class="form-label">
+                  <div className="mb-3 otp">
+                    <label for="exampleInputEmail1" className="form-label">
                       OTP
                     </label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="exampleInputEmail1"
                       aria-describedby="emailHelp"
                     />
@@ -79,58 +79,58 @@ const Checkout = () => {
             <div className="address">
 
               <form>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">
+                <div className="mb-3">
+                  <label for="exampleInputEmail1" className="form-label">
                     Full address
                   </label>
                   <textarea
                     type="text-aria"
-                    class="form-control"
+                    className="form-control"
                     id="exampleInputEmail1"
                     aria-describedby="emailHelp"
                   />
                 </div>
                 <div className="address-details">
-                  <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">
+                  <div className="mb-3">
+                    <label for="exampleInputEmail1" className="form-label">
                       Country
                     </label>
                     <input
                       type="email"
-                      class="form-control"
+                      className="form-control"
                       id="exampleInputEmail1"
                       aria-describedby="emailHelp"
                     /></div>
-                    <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">
+                    <div className="mb-3">
+                      <label for="exampleInputEmail1" className="form-label">
                         State
                       </label>
                       <input
                         type="email"
-                        class="form-control"
+                        className="form-control"
                         id="exampleInputEmail1"
                         aria-describedby="emailHelp"
                       />
                     
                   </div>
-                  <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">
+                  <div className="mb-3">
+                    <label for="exampleInputEmail1" className="form-label">
                       City
                     </label>
                     <input
                       type="email"
-                      class="form-control"
+                      className="form-control"
                       id="exampleInputEmail1"
                       aria-describedby="emailHelp"
                     />
                   </div>
-                  <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">
+                  <div className="mb-3">
+                    <label for="exampleInputEmail1" className="form-label">
                       Pincode
                     </label>
                     <input
                       type="email"
-                      class="form-control"
+                      className="form-control"
                       id="exampleInputEmail1"
                       aria-describedby="emailHelp"
                     />
@@ -138,13 +138,13 @@ const Checkout = () => {
                 </div>
 
 
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">
+                <div className="mb-3">
+                  <label for="exampleInputEmail1" className="form-label">
                     Landmark
                   </label>
                   <input
                     type="email"
-                    class="form-control"
+                    className="form-control"
                     id="exampleInputEmail1"
                     aria-describedby="emailHelp"
                   />

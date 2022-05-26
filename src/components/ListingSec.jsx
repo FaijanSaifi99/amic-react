@@ -2,6 +2,7 @@ import React from "react";
 import Card from "./Card";
 import ListingApi from "../api/ListingApi";
 import Accordian  from "./Accordian";
+import { Link } from "react-router-dom";
 
 const ListingSec = () => {
   return (
@@ -22,40 +23,40 @@ const ListingSec = () => {
               <div id="sizes-category">
                 <ul>
                   <li>
-                    <a href="">S</a>
+                    <Link to="">S</Link>
                   </li>
                   <li>
-                    <a href="">M</a>
+                    <Link to="">M</Link>
                   </li>
                   <li>
-                    <a href="">L</a>
+                    <Link to="">L</Link>
                   </li>
                   <li>
-                    <a href="">XL</a>
+                    <Link to="">XL</Link>
                   </li>
                   <li>
-                    <a href="">2XL</a>
+                    <Link to="">2XL</Link>
                   </li>
                   <li>
-                    <a href="">3XL</a>
+                    <Link to="">3XL</Link>
                   </li>
                   <li>
-                    <a href="">4XL</a>
+                    <Link to="">4XL</Link>
                   </li>
                   <li>
-                    <a href="">5XL</a>
+                    <Link to="">5XL</Link>
                   </li>
                   <li>
-                    <a href="">6XL</a>
+                    <Link to="">6XL</Link>
                   </li>
                   <li>
-                    <a href="">38</a>
+                    <Link to="">38</Link>
                   </li>
                   <li>
-                    <a href="">40</a>
+                    <Link to="">40</Link>
                   </li>
                   <li>
-                    <a href="">42</a>
+                    <Link to="">42</Link>
                   </li>
                 </ul>
               </div>
@@ -77,7 +78,7 @@ const ListingSec = () => {
                 <strong> Men's Plain T-Shirts</strong> (100)
               </h3>
               <div>
-                <a href="">sort by popular</a>
+                <Link to="">sort by popular</Link>
               </div>
             </div>
 
@@ -86,6 +87,7 @@ const ListingSec = () => {
                 {ListingApi.map(function ncard(val) {
                   return (
                     <Card
+                      key={val.id}
                       cardimg={val.cardimg}
                       cardCon={val.cardCon}
                       curprice={val.curprice}

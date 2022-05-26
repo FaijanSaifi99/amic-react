@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Bradcrumb from './components/Bradcrumb';
 import Footer from './components/Footer';
 import Header from './components/Header';
@@ -22,8 +23,8 @@ const Login = () => {
                     </form>
                     <p className='orlogin'>or login with</p>
                     <div className="login-with">
-                       <a><i class="fa-3x fa-brands fa-facebook"></i></a>
-                       <a href=""><i class="fa-3x fa-brands fa-google"></i></a>
+                       <Link to = ""><i className="fa-3x fa-brands fa-facebook"></i></Link>
+                       <Link to=""><i className="fa-3x fa-brands fa-google"></i></Link>
                     </div>
                 </div>
             </div>

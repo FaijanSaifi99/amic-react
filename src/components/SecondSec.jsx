@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const SecondSec = () => {
   return (
@@ -6,11 +7,11 @@ const SecondSec = () => {
     <section className="container-fluid second-section">
      <div className="row">
       <div className="col-md-6">
-        <a href="/"><img src="images/winter-cap.png" alt=""/></a>
+        <Link to="/"><img src="images/winter-cap.png" alt=""/></Link>
       </div>
       <div className="col-md-6 second-section-sec-img">
-        <a href="/"><img src="images/save.png" alt=""/></a>
-        <a href="/"><img src="images/try.png" alt=""/></a>
+        <Link to="/"><img src="images/save.png" alt=""/></Link>
+        <Link to="/"><img src="images/try.png" alt=""/></Link>
       </div>
      </div>
         

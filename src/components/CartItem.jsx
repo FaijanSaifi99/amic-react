@@ -1,18 +1,22 @@
 import React from 'react';
 
-const CartItem = (props) => {
+
+const CartItem = ({img, title, curprice , actualprice}) => {
+
+
+  
   return (
     <>
        <div className="cart-item">
-              <button className="remove_item">X</button>
-              <div className="d-flex cart-content">
-              <div className="cartimg"><img src={props.img} alt="" /></div>
+              <button className="remove_item">x</button>
+              <div className="d-flex cart-content"> 
+              <div className="cartimg"><img src={img} alt="" /></div>
               <div className="item-content">
                 <h5>
-                {props.title}
+                {title}
                 </h5>
                 <h2 className="prdct-price ">
-                  Rs. {props.curprice} <strike>Rs. {props.actualprice}</strike>
+                  Rs. {curprice} <strike>Rs. {actualprice}</strike>
                 </h2>
                 <label for="quantity">Qty</label>
                 <select name="quantity" id="quantity">
