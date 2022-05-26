@@ -3,7 +3,7 @@ import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
-import AddIcon from '@mui/icons-material/Add';
+// import AddIcon from '@mui/icons-material/Add';
 
 
  function SimpleAccordion() {
@@ -15,7 +15,7 @@ import AddIcon from '@mui/icons-material/Add';
     <>
       <Accordion style={Accordion_style}>
         <AccordionSummary
-          expandIcon={<AddIcon />}
+          // expandIcon={}
 
         >
           <Typography>Accordion 1</Typography>
